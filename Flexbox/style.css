@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container-flex{
+    display: flex;
+}
+.container-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+.grid-materias{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    border: 5px solid;
+}
+.card{
+    border-style: solid;
+    display: inline-block;
+}
+.kris{
+    width: 300px;
+    height: 800px;
+    border-style: solid;
+    display: inline-block;
+    margin-right: 20px;
+}
+.susie{
+    width: 300px;
+    height: 855px;
+    border-style: solid;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.ralsei{
+    width: 300px;
+    height: 927px;
+    border-style: solid;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
